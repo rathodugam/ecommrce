@@ -1,0 +1,102 @@
+body {
+    background-color: #F3F3F3;
+}
+.header {
+    background-color: black;
+}
+.header1{
+    background-color: #F00E34;
+}
+/* navigation bar  */
+.navbar {
+    float: right;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    margin-left: 1em;
+    text-decoration: none;
+}
+.navbar-toggler
+{
+    background-color: #fff;
+}
+
+.vl {
+    border-left: 1px solid #fff;
+    margin-left: 8px;
+    height: 1px;
+}
+
+.input-group p {
+    color: #fff;
+    margin: 6px;
+}
+
+.btn-danger {
+    background-color: #F00E34;
+}
+
+.social {
+    width: 39px;
+    height: 39px;
+    padding: 3.7px;
+    background-color: #F00E34;
+    display: -webkit-box;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    margin-left: 2em;
+    font-size: 21px;
+}
+/* end navigation  */
+
+.list
+{
+    margin: 1em;
+}
+.list ul li {
+    list-style: none;
+    float: left;
+    margin: 1em;
+    color: #fff;
+}
+.wapper
+{
+    background-color: #fff;
+    height: 400px;
+}
+.card{
+    margin-top: 1em;
+    background-color: #fff;
+}
+.card span {
+    color: black;
+    font-weight: 600;
+}
+.card span i {
+    color: #A5A5A5;
+    font-size: 20px;
+    margin-right: 1em;
+}
+.form-check-input
+{
+    height: 18px;
+    width: 18px;
+}
+.card-body
+{
+    font-weight: 600;
+}
+.card-body ul li {
+    margin: 1em;
+}
+/* responsive  */
+@media (max-width:500px){
+    .logo {
+        height: 110px;
+        width: 220px;
+        margin-left: 2em;
+    }
+}
